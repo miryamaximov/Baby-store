@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <script src="formLogin.js"></script>
+    <link
+      rel="shortcut icon"
+      href="../FinalProject/pics/iconBaby.png"
+      type="image/x-icon"
+    />
+    <title>Baby Dreams</title>
+  </head>
+  <body>
+    <div class="div1">
+      <center><h1>Log In</h1></center>
+      <form id="log" class="forms" action="first.html">
+        <label>User Name:</label>
+        <br />
+        <br />
+        <input type="text" required placeholder="your user name" id="name_id" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <label>Password:</label>
+        <br />
+        <br />
+        <input
+          type="password"
+          required
+          placeholder="your password"
+          id="password_id"
+        />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <input
+          id="submit_btn"
+          type="submit"
+          value="Log In ➡"
+          onclick="editDetailsForm2('name_id', 'password_id')"
+        />
+      </form>
+      <center>
+        <button class="btn_back" onclick="window.location.href='index.html'">
+          come back
+        </button>
+      </center>
+    </div>
+    <br />
+  </body>
+</html>

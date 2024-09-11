@@ -1,0 +1,27 @@
+main {
+  background-color: whitesmoke;
+}
+
+header button {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: xx-large;
+  margin-top: 32px;
+  opacity: 0.5;
+}
+
+#final {
+  text-align: center;
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+header button:hover{
+  cursor: pointer;
+  opacity: unset;
+}
+ 

@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(227, 248, 248);
+  font-family: sans-serif;
+}
+div {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}

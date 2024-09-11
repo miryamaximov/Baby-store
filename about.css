@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: cornsilk;
+}
+main {
+  align-items: center;
+}
+
+.divMe {
+  text-align: center;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.divMe img {
+  width: 700px;
+  height: auto;
+  float: left;
+  margin-right: 16px;
+}
+.divMe p {
+  font-size: x-large;
+}

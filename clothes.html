@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../FinalProject/pics/iconBaby.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="category.css" />
+    <script src="category.js"></script>
+    <script src="global.js"></script>
+    <script src="clothes.js"></script>
+    <title>Baby Dreams</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="container">
+        <img src="../FinalProject/pics/baby.png" alt="logo" width="100px" />
+        <nav>
+          <h2 id="id_user">&nbsp;</h2>
+          <a href="about.html">אודות</a>
+          <a href="basket.html">הסל שלי</a>
+          <a href="shoes.html">נעליים</a>
+          <a href="clothes.html">טקסטיל</a>
+          <a href="bottle.html">מוצצים ובקבוקים</a>
+          <a href="agalot.html">עגלות</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="image-grid ">
+        <div class="box-product">
+          <h2 id="productName"><span>Product name:<br></span>כובע פרווה ורוד חם</h2>
+          <h3 id="productPrice">Product price: 150 ₪</h3>
+          <img src="" id="1" /><input type="number" id="input1"   value="1"></input>
+          <button id="btn1" onclick="addItem(0,'input1', 'btn1')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>חולצה חומה מחממת עם דובי</h2>
+          <h3 id="productPrice">Product price: 89 ₪</h3>
+          <img src="" id="2" /><input type="number" id="input2"   value="1"></input>
+          <button id="btn2" onclick="addItem(1, 'input2', 'btn2')" >🛒</button>
+        </div>
+      
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>כובע דובי סרוג</h2>
+          <h3 id="productPrice">Product price: 100 ₪</h3>
+          <img src="" id="3" /><input type="number" id="input3"   value="1"></input>
+          <button id="btn3" onclick="addItem(2, 'input3', 'btn3')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>בגדי אהבה</h2>
+          <h3 id="productPrice">Product price: 50 ₪</h3>
+          <img src="" id="4" /><input type="number" id="input4"   value="1"></input>
+          <button id="btn4" onclick="addItem(3, 'input4', 'btn4')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>קפוצו'ון ורוד עם פרפרים</h2>
+          <h3 id="productPrice">Product price: 75 ₪</h3>
+          <img src="" id="5" /><input type="number" id="input5"   value="1"></input>
+          <button id="btn5" onclick="addItem(4, 'input5', 'btn5')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>חולצת פוטר ומכנסיים צבעוני</h2>
+          <h3 id="productPrice">Product price: 110 ₪</h3>
+          <img src="" id="6" /><input type="number" id="input6"   value="1"></input>
+          <button id="btn6" onclick="addItem(5, 'input6', 'btn6')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>אוברול טורקיז חלק</h2>
+          <h3 id="productPrice">Product price: 150 ₪</h3>
+          <img src="" id="7" /><input type="number" id="input7"   value="1"></input>
+          <button id="btn7" onclick="addItem(6, 'input7', 'btn7')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>מכנסיים וקפוצ'ון אדום - כחול - לבן</h2>
+          <h3 id="productPrice">Product price: 80 ₪</h3>
+          <img src="" id="8" /><input type="number" id="input8"   value="1"></input>
+          <button id="btn8" onclick="addItem(7, 'input8', 'btn8')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>סט אוברול, כובע וסינר</h2>
+          <h3 id="productPrice">Product price: 178 ₪</h3>
+          <img src="" id="9" /><input type="number" id="input9"   value="1"></input>
+          <button id="btn9" onclick="addItem(8, 'input9', 'btn9')" >🛒</button>
+        </div>
+
+        <div class="box-product">
+          <h2 id="productName"><span>Product name: <br></span>ג'קט דו שכבתי דמוי צמר</h2>
+          <h3 id="productPrice">Product price: 180 ₪</h3>
+          <img src="" id="10" /><input type="number" id="input10"   value="1"></input>
+          <button id="btn10" onclick="addItem(9, 'input10', 'btn10')" >🛒</button>
+        </div>
+        
+      </div>
+    </main>
+     <img id="backTop" src="../FinalProject/pics/arrowBlack.svg" onclick="scrollToAll()">
+  </body>
+</html>

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <link
+      rel="shortcut icon"
+      href="../FinalProject/pics/iconBaby.png"
+      type="image/x-icon"
+    />
+    <script src="formSignUp.js"></script>
+    <title>Baby Dreams</title>
+  </head>
+  <body>
+    <div class="div1">
+      <center><h1>Sign Up</h1></center>
+      <form id="sign" class="forms" action="first.html">
+        <label>User Name:</label>
+        <br />
+        <input
+          type="text"
+          required
+          placeholder="choose a user name"
+          id="name_id"
+        />
+        <br />
+        <br />
+        <label>Email:</label>
+        <br />
+        <input
+          type="email"
+          required
+          placeholder="your email adress"
+          id="email_id"
+        />
+        <br />
+        <br />
+        <label>Password:</label>
+        <br />
+        <input
+          type="password"
+          required
+          placeholder="a smart password"
+          id="password_id"
+        />
+        <br />
+        <br />
+        <label>Favorite language:</label>
+        <br />
+        <input type="radio" name="lang" required />
+        <label id="lan_id">Hebrew</label>
+        <br />
+        <input type="radio" name="lang" required />
+        <label id="lan_id">English</label>
+        <br />
+        <input type="radio" name="lang" required />
+        <label id="lan_id">French</label>
+        <br />
+        <br />
+        <label>
+          I read the <a href="regulations.html">regulations</a> and agree
+        </label>
+        <br />
+        <input type="checkbox" name="confirm" required />
+        <br />
+        <br />
+        <input
+          id="submit_btn"
+          type="submit"
+          value="Sign Up ➡"
+          onclick="editDetailsForm1('name_id', 'email_id', 'password_id', 'lan_id')"
+        />
+      </form>
+      <center>
+        <button class="btn_back" onclick="window.location.href='first.html'">
+          come back
+        </button>
+      </center>
+    </div>
+    <br />
+  </body>
+</html>

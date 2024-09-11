@@ -1,0 +1,47 @@
+main form {
+  border: solid 5px rgb(241, 207, 223);
+  height: 550px;
+  max-width: 500px;
+  margin-top: 32px;
+  padding: 64px;
+}
+
+header button {
+  font-size: x-large;
+  border: none;
+  color: white;
+  background: rgb(241, 207, 223);
+  cursor: pointer;
+}
+
+header button:hover {
+  color: black;
+}
+
+form label {
+  font-size: larger;
+  font-weight: 600;
+}
+
+form input {
+  text-align: center;
+  height: 40px;
+}
+
+form button {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(241, 207, 223);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+form button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

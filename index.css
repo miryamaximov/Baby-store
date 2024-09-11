@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 128px;
+  background: url("../FinalProject/pics/babyBack.jpg");
+  font-family: monospace;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+.btn_class {
+  text-align: center;
+}
+
+div button {
+  border-color: black;
+  border-width: 5px;
+  width: 200px;
+  height: 100px;
+  font-size: xx-large;
+  font-weight: lighter;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+div button:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  width: 22%;
+}
